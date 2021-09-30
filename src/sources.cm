@@ -1,0 +1,24 @@
+(* sources.cm
+ *
+ * CMSC 22600 Autumn 2021 Sample Code
+ *
+ * COPYRIGHT (c) 2021 John Reppy (http://cs.uchicago.edu/~jhr)
+ * All rights reserved.
+ *)
+
+Library
+
+  structure Eval
+  structure Lambda
+  structure Main
+
+is
+
+  $/basis.cm
+  $/smlnj-lib.cm
+  $/sexp-lib.cm
+
+  eval.sml
+  lambda.sml
+  main.sml
+

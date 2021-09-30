@@ -1,3 +1,7 @@
+# assignment files
+bin/lambda-eval.*
+lambda-eval.*
+
 # vim swap file
 *.swp
 

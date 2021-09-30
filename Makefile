@@ -8,7 +8,7 @@
 # All rights reserved.
 #
 # targets:
-#	make lambda-eval	-- build Lambda-calculus evaluator
+#	make eval-lambda	-- build Lambda-calculus evaluator
 #	make clean		-- remove intermediate files
 #
 
@@ -20,7 +20,7 @@ ML_BUILD =	ml-build
 
 HEAP_SUFFIX =	$(shell sml @SMLsuffix)
 
-PROGRAM =	lambda-eval
+PROGRAM =	eval-lambda
 
 CM_FILES =	src/sources.cm
 HEAP =		$(PROGRAM).$(HEAP_SUFFIX)

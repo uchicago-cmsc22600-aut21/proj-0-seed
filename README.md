@@ -1,2 +1,9 @@
-# proj-0-seed
-Upstream repository for Project 0 seed code.
+# Project 0
+
+The `src` directory contains the source code for the project; use
+the `Makefile` to build it.  The executable will be added to the
+`bin` directory.  There are some sample input files in the `tests`
+directory.
+
+**NOTE:** you must have the location of SML/NJ in your shell `PATH`
+variable for the bild chain to work.
